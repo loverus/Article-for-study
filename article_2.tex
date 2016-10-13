@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.4 (15/5/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside,twocolumn]{article}
+
+\usepackage{blindtext} % Package to generate dummy text throughout this template
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+
+\usepackage{enumitem} % Customized lists
+\setlist[itemize]{noitemsep} % Make itemize lists more compact
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Running title $\bullet$ May 2016 $\bullet$ Vol. XXI, No. 1} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{titling} % Customizing the title section
+
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\setlength{\droptitle}{-4\baselineskip} % Move the title up
+
+\pretitle{\begin{center}\Huge\bfseries} % Article title formatting
+\posttitle{\end{center}} % Article title closing formatting
+\title{Frequency cryptanalysis. Caesar cipher} % Article title
+\author{%
+\textsc{Mariia Manuylova} \\[1ex] % Your name
+\normalsize Peter the Great St.Petersburg Polytechnic University \\ % Your institution
+\normalsize \href{mailto:masha-loverus@yandex.ru}{masha-loverus@yandex.ru} % Your email address
+%\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
+%\textsc{Jane Smith}\thanks{Corresponding author} \\[1ex] % Second author's name
+%\normalsize University of Utah \\ % Second author's institution
+%\normalsize \href{mailto:jane@smith.com}{jane@smith.com} % Second author's email address
+}
+\date{\today} % Leave empty to omit a date
+\renewcommand{\maketitlehookd}
+%{%
+%\begin{abstract}
+%\noindent \blindtext % Dummy abstract text - replace \blindtext with your abstract text
+%\end{abstract}
+%}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% Print the title
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+\lettrine[nindent=0em,lines=3]{C} ryptography is the study of mathematical techniques for all aspects of information security. Cryptanalysis is the complementary science concerned with the methods to defeat these techniques. Cryptology is the study of cryptography and cryptanaylsis. Key features of information security information include confidentiality or privacy, data integrity, authentication, and nonrepudiation. Each of these aspects of message security can addressed by standard methods in cryptography.
+
+
+Frequency cryptanalysis cryptography is one of the sections. This is one of the simple methods of encryption and decryption of text. It studied the frequency of occurrence of letters in various texts and based on the detected results to the decryption key for a particular text.
+
+Cipher is a map from a space of plaintext to a space of ciphertext. We was studied the Caesar cipher. This is the easiest method based on the frequency cryptanalysis. This article was previously studied by the task of decoding the encoded text with the frequency of cryptanalysis using the Caesar cipher.
+
+
+
+%\section{Methods}
+
+
+%------------------------------------------------
+
+%\section{Results}
+
+
+
+%------------------------------------------------
+
+%\section{Discussion}
+
+%\subsection{Subsection One}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+
+%\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
