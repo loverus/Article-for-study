@@ -21,7 +21,7 @@
 
 \documentclass[twoside,twocolumn]{article}
 
-\usepackage{blindtext} % Package to generate dummy text throughout this template 
+\usepackage{blindtext} % Package to generate dummy text throughout this template
 
 \usepackage[sc]{mathpazo} % Use the Palatino font
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
@@ -68,22 +68,23 @@
 
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
-\title{Article Title} % Article title
+\title{Frequency cryptanalysis. Caesar cipher} % Article title
 \author{%
-\textsc{John Smith}\thanks{A thank you or further information} \\[1ex] % Your name
-\normalsize University of California \\ % Your institution
-\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
+\textsc{Mariia Manuylova} \\[1ex] % Your name
+\normalsize Peter the Great St.Petersburg Polytechnic University \\ % Your institution
+\normalsize \href{mailto:masha-loverus@yandex.ru}{masha-loverus@yandex.ru} % Your email address
 %\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
 %\textsc{Jane Smith}\thanks{Corresponding author} \\[1ex] % Second author's name
 %\normalsize University of Utah \\ % Second author's institution
 %\normalsize \href{mailto:jane@smith.com}{jane@smith.com} % Second author's email address
 }
 \date{\today} % Leave empty to omit a date
-\renewcommand{\maketitlehookd}{%
+\renewcommand{\maketitlehookd}
+%{%
 \begin{abstract}
-\noindent \blindtext % Dummy abstract text - replace \blindtext with your abstract text
+%\noindent \blindtext % Dummy abstract text - replace \blindtext with your abstract text
 \end{abstract}
-}
+%}
 
 %----------------------------------------------------------------------------------------
 
@@ -98,83 +99,46 @@
 
 \section{Introduction}
 
-\lettrine[nindent=0em,lines=3]{L} orem ipsum dolor sit amet, consectetur adipiscing elit.
-\blindtext % Dummy text
+\lettrine[nindent=0em,lines=3]{C} ryptography is the study of mathematical techniques for all aspects of information security. Cryptanalysis is the complementary science concerned with the methods to defeat these techniques. Cryptology is the study of cryptography and cryptanaylsis. Key features of information security information include confidentiality or privacy, data integrity, authentication, and nonrepudiation. Each of these aspects of message security can addressed by standard methods in cryptography.
 
-\blindtext % Dummy text
 
-%------------------------------------------------
+Frequency cryptanalysis cryptography is one of the sections. This is one of the simple methods of encryption and decryption of text. It studied the frequency of occurrence of letters in various texts and based on the detected results to the decryption key for a particular text.
 
-\section{Methods}
+Cipher is a map from a space of plaintext to a space of ciphertext. We was studied the Caesar cipher. This is the easiest method based on the frequency cryptanalysis. This article was previously studied by the task of decoding the encoded text with the frequency of cryptanalysis using the Caesar cipher.
 
-Maecenas sed ultricies felis. Sed imperdiet dictum arcu a egestas. 
-\begin{itemize}
-\item Donec dolor arcu, rutrum id molestie in, viverra sed diam
-\item Curabitur feugiat
-\item turpis sed auctor facilisis
-\item arcu eros accumsan lorem, at posuere mi diam sit amet tortor
-\item Fusce fermentum, mi sit amet euismod rutrum
-\item sem lorem molestie diam, iaculis aliquet sapien tortor non nisi
-\item Pellentesque bibendum pretium aliquet
-\end{itemize}
-\blindtext % Dummy text
 
-Text requiring further explanation\footnote{Example footnote}.
+
+\section{Methodology}
+
 
 %------------------------------------------------
+\section{Experiment}
 
-\section{Results}
 
-\begin{table}
-\caption{Example table}
-\centering
-\begin{tabular}{llr}
-\toprule
-\multicolumn{2}{c}{Name} \\
-\cmidrule(r){1-2}
-First name & Last Name & Grade \\
-\midrule
-John & Doe & $7.5$ \\
-Richard & Miles & $2$ \\
-\bottomrule
-\end{tabular}
-\end{table}
+\section{Result}
 
-\blindtext % Dummy text
 
-\begin{equation}
-\label{eq:emc}
-e = mc^2
-\end{equation}
-
-\blindtext % Dummy text
 
 %------------------------------------------------
 
 \section{Discussion}
 
-\subsection{Subsection One}
+%\subsection{Subsection One}
 
-A statement requiring citation \cite{Figueredo:2009dg}.
-\blindtext % Dummy text
-
-\subsection{Subsection Two}
-
-\blindtext % Dummy text
-
+\section{Reference}
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
 
-\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
 
-\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
-Figueredo, A.~J. and Wolf, P. S.~A. (2009).
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330.
- 
-\end{thebibliography}
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+
+%\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
 
